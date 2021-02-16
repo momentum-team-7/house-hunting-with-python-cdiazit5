@@ -16,7 +16,7 @@ def months_needed():
     annual_salary = float(input("What is your annual salary? "))
     total_costs = float(input("What is the price of your dream home? "))
     months = 0 
-    portion_saved = float(input("What percent of your salary can you save? "))
+    portion_saved = float(input("What percent of your salary can you save? (As a decimal) "))
     down_payment = total_costs*portion_down_payment
 
     while current_savings < down_payment:
